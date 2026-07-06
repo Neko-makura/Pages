@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>AES256 File Encryptor</title>
+<style>
+body{
+    font-family:sans-serif;
+    max-width:600px;
+    margin:40px auto;
+}
+button{
+    margin:5px;
+}
+</style>
+</head>
+<body>
+
+<h2>AES256 ファイル暗号化</h2>
+
+<input type="file" id="file"><br><br>
+
+<input type="password" id="password" placeholder="Password"><br><br>
+
+<button id="encrypt">暗号化</button>
+<button id="decrypt">復号</button>
+
+<script src="../library/webcyptro.js"></script>
+
+</body>
+</html>
